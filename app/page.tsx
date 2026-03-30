@@ -15,7 +15,7 @@ export default function Home() {
           </h1>
 
           <p className="text-accent text-sm sm:text-base tracking-[0.2em] uppercase">
-            An invitation-only songwriter session series by Cake Records
+            An invitation-only songwriter session series by Cake&nbsp;Records
           </p>
 
           {/* Decorative rule */}
@@ -29,16 +29,16 @@ export default function Home() {
       <section className="flex justify-center px-6 pb-24 sm:pb-32">
         <div className="max-w-lg text-center">
           <p className="text-foreground/80 text-base sm:text-lg leading-relaxed font-light">
-            Three to four songwriters. Three songs each. Forty-five minutes in a
-            space that feels like nowhere else. Fully acoustic — no PA, no
-            stage. You hear the song before the world does.
+            Three to four songwriters. Three songs each. A space that feels like
+            nowhere else. Fully acoustic — no PA, no stage. You hear the song
+            before the world does.
           </p>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="mt-auto py-8 px-6">
-        <p className="text-center text-muted text-xs tracking-wide">
+        <p className="text-center text-muted text-[10px] tracking-wide">
           © Cake&nbsp;Records · beforethenoise.thecakerecords.com
         </p>
       </footer>
