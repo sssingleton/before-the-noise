@@ -39,7 +39,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-auto py-8 px-6">
         <p className="text-center text-muted text-xs tracking-wide">
-          © Cake Records · beforethenoise.thecakerecords.com
+          © Cake&nbsp;Records · beforethenoise.thecakerecords.com
         </p>
       </footer>
     </div>
