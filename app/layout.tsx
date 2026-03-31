@@ -17,6 +17,23 @@ export const metadata: Metadata = {
   title: "Before the Noise",
   description:
     "An invitation-only outdoor songwriter session series by Cake Records. Intimate acoustic performances of unreleased songs — before the world hears them.",
+  openGraph: {
+    title: "Before the Noise",
+    description:
+      "An invitation-only outdoor songwriter session series by Cake Records. Intimate acoustic performances of unreleased songs — before the world hears them.",
+    url: "https://beforethenoise.thecakerecords.com",
+    siteName: "Before the Noise",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Before the Noise",
+    description:
+      "An invitation-only outdoor songwriter session series by Cake Records. Intimate acoustic performances of unreleased songs — before the world hears them.",
+  },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
