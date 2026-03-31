@@ -24,12 +24,21 @@ export const metadata: Metadata = {
     url: "https://beforethenoise.thecakerecords.com",
     siteName: "Before the Noise",
     type: "website",
+    images: [
+      {
+        url: "https://beforethenoise.thecakerecords.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Before the Noise — Cake Records",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Before the Noise",
     description:
       "An invitation-only outdoor songwriter session series by Cake Records. Intimate acoustic performances of unreleased songs — before the world hears them.",
+    images: ["https://beforethenoise.thecakerecords.com/og-image.png"],
   },
   icons: {
     icon: "/favicon.svg",
